@@ -1,9 +1,21 @@
+
 function isPalindrome(word) {
   // Write your algorithm here
+  let drow = ''
+  for (let i = word.length - 1; i >= 0; i--) {
+    drow += word[i]
+  }
+  return (drow === word)
 }
 
 /* 
   Add your pseudocode here
+  test for odd or even first
+  if odd
+
+  else
+
+
 */
 
 /*
